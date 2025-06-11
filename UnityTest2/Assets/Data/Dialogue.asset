@@ -9,9 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abc470b01bc16054baaef312f6474e76, type: 3}
-  m_Name: Test
+  m_Script: {fileID: 11500000, guid: 463cd2130fe3eba4ba6a71aec9fcc674, type: 3}
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
   SheetName: Assets/Data/Data.xlsx
-  WorksheetName: Test
-  dataArray: []
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    bg: BG_Room2
+    character: 10102
+    position: 5
+    dialogue: "\uC804 \uBC14\uBCF4\uAC00 \uB41C \uB808\uC774\uB098\uB3C4 \uC88B\uB2E4\uACE0
+      \uC0DD\uAC01\uD569\uB2C8\uB2E4."
